@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    body {font-family: Arial, sans-serif;
+    }
+    form {
+    border: 3px solid grey;
+    }
+    input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    }
+
+    button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    width: 100%;
+    }
+    button:hover {
+    opacity: 0.8;
+    }
+
+    .container {
+    padding: 16px;}
+</style>
+    <title>Login to Account</title>
+</head>
+<body>
+<h2>Login Form</h2>
+<form>
+  <div class="container">
+    <label><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="username" required>
+    <label><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="password" required>
+    <button type="submit">Login</button>
+    <label>
+      <input type="checkbox" name="remember"> Remember me
+    </label>
+  </div>
+  <div class="container" style="background-color: grey; text-align: right;">
+    <span><a href="#">Forget password?</a></span>
+  </div>
+</form>
+</body>
+</html>
